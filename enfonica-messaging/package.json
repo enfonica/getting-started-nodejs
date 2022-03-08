@@ -1,11 +1,26 @@
 {
-  "name": "enfonica-messaging",
-  "version": "0.1.0",
+  "name": "enfonica-starter-template",
+  "version": "1.0.0",
+  "description": " A very basic starter for an express.js API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint --fix src",
+    "test": "mocha --exit"
+  },
+  "keywords": [],
+  "author": "Enfonica",
   "license": "Apache-2.0",
   "dependencies": {
-    "@enfonica/messaging": "^1.0.0-alpha.1",
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "xml": "^1.0.1"
+    "@enfonica/messaging": "^1.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "nodemon": "^2.0.7"
   }
 }

@@ -1,19 +1,10 @@
 {
-  "name": "nodejs-getting-started",
+  "name": "getting-started-nodejs",
   "private": true,
   "description": "End to end samples for running Node.js applications using Enfonica",
   "dependencies": {},
-  "devDependencies": {
-    "eslint": "^7.1.0",
-    "eslint-config-prettier": "^7.0.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^2.0.0"
-  },
-  "scripts": {
-    "lint": "eslint '**/*.js'",
-    "fix": "npm run lint -- --fix"
-  },
+  "devDependencies": {},
+  "scripts": {},
   "author": "Enfonica",
   "license": "Apache-2.0"
 }
