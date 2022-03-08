@@ -13,7 +13,7 @@ VoiceClient.createCall({
     to: '...',
     from: '...',
     options: {
-      handlerUris: ['...']
+      handlerUris: ['.../handle-call']
     }
   }
 });
