@@ -19,16 +19,6 @@ MessagesClient.createMessage({
   console.log(err);
 });
 
-app.get('/list', (req, res) => {
-  MessagesClient.listMessages({
-    parent: 'projects/...'
-  }).then(res => {
-    console.log(res);
-  }).catch(err => {
-    console.log(err);
-  });
-});
-
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
 
